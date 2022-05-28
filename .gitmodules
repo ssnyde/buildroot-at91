@@ -1,0 +1,3 @@
+[submodule "buildroot-aws-iot"]
+	path = buildroot-aws-iot
+	url = https://github.com/aduskett/buildroot-aws-iot
