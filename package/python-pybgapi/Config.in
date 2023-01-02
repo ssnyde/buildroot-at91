@@ -1,0 +1,11 @@
+config BR2_PACKAGE_PYTHON_PYBGAPI
+       bool "python-pybgapi"
+       select python-serial
+       help
+         This package provides a Python interface for the BGAPI binary protocol.
+	 It reads the BGAPI definition file and dynamically generates
+	 a parser for it.
+
+	 https://pypi.org/project/pybgapi/
+
+ 
